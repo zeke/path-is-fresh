@@ -1,0 +1,23 @@
+{
+  "name": "path-is-fresh",
+  "version": "1.0.0",
+  "description": "A human-friendly tool for checking file freshness",
+  "main": "index.js",
+  "repository": "https://github.com/zeke/path-is-fresh",
+  "author": "Zeke Sikelianos <zeke@sikelianos.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "standard": "^10.0.3",
+    "standard-markdown": "^4.0.2",
+    "timekeeper": "^2.0.0",
+    "tmp": "^0.0.33"
+  },
+  "dependencies": {
+    "human-interval": "^0.1.6"
+  },
+  "scripts": {
+    "test": "mocha && standard --fix && standard-markdown"
+  }
+}
